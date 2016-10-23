@@ -1,0 +1,4 @@
+include ':app'
+include ':spotpark-serialprinter'
+
+project(':spotpark-serialprinter').projectDir = new File(settingsDir, '../Library/spotpark-serialprinter')
